@@ -2,14 +2,14 @@
 
 <suite name="Test runner" parallel="classes" thread-count="3">
     <test name="Package with subpackages">
-        <packages>
+<!--         <packages>
             <package name="com.automatika.runners.*"/>
-        </packages>
+        </packages> -->
         
-<!--         <classes>
+        <classes>
             <class name="com.automatika.runners.LogInFeatureRunner">                
             </class>
-        </classes> -->
+        </classes>
         
     </test>
 </suite>
