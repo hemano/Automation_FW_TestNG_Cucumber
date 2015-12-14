@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test runner" parallel="classes" thread-count="3">
+    <test name="Package with subpackages">
+        <packages>
+            <package name="com.automatika.runners.*"/>
+        </packages>
+        
+<!--         <classes>
+            <class name="com.automatika.runners.LogInFeatureRunner">                
+            </class>
+        </classes> -->
+        
+    </test>
+</suite>
+
